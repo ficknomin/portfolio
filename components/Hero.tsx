@@ -71,7 +71,7 @@ export default function Hero() {
             ease: [0.16, 1, 0.3, 1],
           }}
         >
-          <AnimatedText text={siteConfig.name} speed={65} />
+          <AnimatedText text={siteConfig.name} speed={75} />
         </motion.h1>
 
         {/* Title */}
