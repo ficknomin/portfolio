@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex items-center gap-4 text-[11px] font-display text-muted/50 tracking-wide">
           <span>&copy; 2025 {siteConfig.name}</span>
           <span className="text-white/[0.1]">/</span>
-          <span>Built with Next.js &amp; too much coffee</span>
+          <span>Full-stack software engineer</span>
         </div>
 
         <div className="flex items-center gap-2">

@@ -29,8 +29,12 @@ export default function Projects() {
             >
               {/* Browser preview */}
               <div className={idx % 2 === 1 ? "lg:order-2" : ""}>
-                {project.url && (
-                  <BrowserFrame url={project.url} title={project.title} blocked={project.iframeBlocked} />
+                {project.url && project.screenshot && (
+                  <BrowserFrame
+                    url={project.url}
+                    title={project.title}
+                    screenshot={project.screenshot}
+                  />
                 )}
               </div>
 

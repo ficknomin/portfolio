@@ -5,7 +5,7 @@ export interface Project {
   description: string[];
   url?: string;
   github?: string;
-  iframeBlocked?: boolean;
+  screenshot?: string;
 }
 
 export interface Experience {
@@ -29,7 +29,8 @@ export interface Education {
 export const siteConfig = {
   name: "Mykola Fomin",
   title: "Full-Stack Software Engineer",
-  tagline: "Building performant web applications with Next.js, TypeScript & AWS",
+  tagline:
+    "Building performant web applications with Next.js, TypeScript & AWS",
   email: "fick.nomin@gmail.com",
   phone: "+44 7717 222470",
   location: "London, UK",
@@ -137,29 +138,30 @@ export const projects: Project[] = [
       "RunPod GPU infrastructure for ML inference",
     ],
     url: "https://proupscaler.app",
+    screenshot: "/images/projects/proupscaler.png",
   },
   {
     title: "JYTHK — Renewable Energy Products",
-    year: "2024 – 2025",
+    year: "2025",
     tech: ["Wix", "Three.js", "3D Models", "Clean UI"],
     description: [
       "Product showcase for a Chinese manufacturer of renewable energy devices — solar panels, EV chargers, inverters",
       "Interactive 3D product models built with Three.js for immersive browsing",
-      "Clean, multilingual UI with Wix backend and custom integrations",
+      "Clean, cross-platform UI with Wix backend and custom integrations",
     ],
     url: "https://jythk.com",
-    iframeBlocked: true,
+    screenshot: "/images/projects/jythk.png",
   },
   {
     title: "Micro ATX PC Builds E-commerce",
-    year: "2025",
+    year: "2024 - 2025",
     tech: ["Wix", "Custom Integrations", "E-commerce"],
     description: [
       "E-commerce platform for custom micro ATX gaming PC builds",
       "Product catalog management and checkout flow",
     ],
     url: "https://mycropc.com",
-    iframeBlocked: true,
+    screenshot: "/images/projects/mycropc.png",
   },
 ];
 
