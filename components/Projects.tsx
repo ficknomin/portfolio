@@ -84,7 +84,7 @@ export default function Projects() {
                     Visit Site
                     <FiArrowUpRight
                       size={14}
-                      className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+                      className="text-accent transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:drop-shadow-[0_0_6px_rgba(129,140,248,0.5)]"
                     />
                   </a>
                 )}
