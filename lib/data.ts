@@ -122,7 +122,7 @@ export const experience: Experience[] = [
       "Built full-featured wedding agency site with Next.js — venue filtering, service showcase, contact forms",
       "Increased organic traffic by 40% through SEO optimisation (meta tags, structured data, performance)",
       "PostgreSQL database architecture for venue inventory and customer inquiries",
-      "Responsive UI across all device sizes with pixel-perfect design",
+      "Responsive UI across all device sizes with a clean, fitting design",
     ],
   },
 ];
